@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    My name is Jason
-</body>
+  </head>
+
+  <body>
+    <section>
+      <nav>
+        <img src="./Assets/FES.svg" alt="front page image" />
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Discord">Discord</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <h1>Best Place to Learn Frontend</h1>
+          <p>Go from absolute beginner to pro with a simplified process</p>
+          <button>Start now</button>
+        </div>
+        <figure>
+          <img src="./Assets/laptop.png" alt="home page image" />
+        </figure>
+      </header>
+    </section>
+
+    <main>
+      <section id="About">
+        <h2>About</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+            repudiandae!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+            labore.
+          </p>
+        </div>
+        <figure>
+          <img src="./Assets/about.jpg" alt="" />
+        </figure>
+      </section>
+
+      <section id="Discord">
+        <h2>Discord</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+            culpa!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
+            ipsa!
+          </p>
+        </div>
+        <figure>
+          <img src="./Assets/discord.png" alt="" />
+        </figure>
+      </section>
+
+      <section id="Contact">
+        <h2>Contact</h2>
+        <form action="">
+          <div>
+            <label for="Email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="johndoe@email.com"
+            />
+          </div>
+          <div>
+            <div>
+                <label for="Message">Message</label>
+            </div>
+            <textarea
+              name="Message"
+              id="Message"
+              rows="5"
+              cols="30"
+              placeholder="Type you message here"
+            ></textarea>
+          </div>
+          <input type="submit" value="submit" />
+          <input type="reset" value="reset" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+        <img src="./Assets/FES.svg" alt="">
+        <div>
+           <a href="#About">About</a> 
+           <a href="#Discord">Discord</a> 
+           <a href="#Contact">Contact</a> 
+           <a href="">Courses</a> 
+        </div>
+    </footer>
+  </body>
 </html>
